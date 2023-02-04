@@ -19,11 +19,12 @@ body {
 .sidebar {
   background: #87cefa;
   width: 370px;
-  padding-top: 40px;
+
   padding-bottom: 40px;
 }
 .my-foto {
   width: 370px;
+
 }
 
 .softskills {
@@ -79,7 +80,7 @@ body {
 }
 .name {
   color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, H1elvetica, sans-serif;
   font-weight: 2000;
   font-size: 95px;
   font-style: normal;
