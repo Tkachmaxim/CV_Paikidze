@@ -97,6 +97,7 @@ body {
 }
 .main-info {
   background-color: #87cefa;
+  width: 100%;
 
   margin-bottom: 64px;
   margin-top: 64px;
@@ -112,6 +113,14 @@ body {
   font-weight: 900;
   line-height: 24px;
   margin-bottom: 10px;
+}
+
+.name__mobile {
+  display: none;
+}
+
+.profession__mobile {
+  display: none;
 }
 
 .projects-name {
@@ -215,9 +224,33 @@ body {
   }
   .about-me {
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
     padding-top: 12%;
     padding-bottom: 12%;
+  }
+
+  .main-info {
+   display: none;
+  }
+  
+  .project-container {
+    margin: 0;
+  padding: 20px;
+ }
+
+ .name__mobile {
+  display: block;
+  margin-bottom: 20px;
+
+
+ }
+
+ .profession__mobile {
+  display: block;
+  margin-bottom: 20px;
+ }
+  
+
+  .name {
+    font-size: 30px;
   }
 }
